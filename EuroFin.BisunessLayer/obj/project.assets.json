@@ -25,6 +25,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "EuroFin.DataClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/EuroFin.DataClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EuroFin.DataClasses.dll": {}
+        }
+      },
+      "EuroFin.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "EuroFin.DataClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EuroFin.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EuroFin.DataLayer.dll": {}
+        }
       }
     }
   },
@@ -171,10 +194,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "EuroFin.DataClasses/1.0.0": {
+      "type": "project",
+      "path": "../EuroFin.DataClasses/EuroFin.DataClasses.csproj",
+      "msbuildProject": "../EuroFin.DataClasses/EuroFin.DataClasses.csproj"
+    },
+    "EuroFin.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../EuroFin.DataLayer/EuroFin.DataLayer.csproj",
+      "msbuildProject": "../EuroFin.DataLayer/EuroFin.DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "EuroFin.DataClasses >= 1.0.0",
+      "EuroFin.DataLayer >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -207,7 +242,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\607959084\\Documents\\Visual Studio 2017\\Projects\\EuroFinService\\EuroFin.DataClasses\\EuroFin.DataClasses.csproj": {
+              "projectPath": "C:\\Users\\607959084\\Documents\\Visual Studio 2017\\Projects\\EuroFinService\\EuroFin.DataClasses\\EuroFin.DataClasses.csproj"
+            },
+            "C:\\Users\\607959084\\Documents\\Visual Studio 2017\\Projects\\EuroFinService\\EuroFin.DataLayer\\EuroFin.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\607959084\\Documents\\Visual Studio 2017\\Projects\\EuroFinService\\EuroFin.DataLayer\\EuroFin.DataLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

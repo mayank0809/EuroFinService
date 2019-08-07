@@ -1,0 +1,14 @@
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BusinessLayer.deps.json
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BusinessLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BusinessLayer.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.DataClasses.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.DataClasses.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.AssemblyInfo.cs
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.csproj.CopyComplete
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BusinessLayer.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.DataLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.DataLayer.pdb

@@ -39,3 +39,5 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinS
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\obj\Debug\EuroFinService.Tests.csproj.CopyComplete
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\obj\Debug\EuroFinService.Tests.dll
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\obj\Debug\EuroFinService.Tests.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EntityFramework.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EntityFramework.xml

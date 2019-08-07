@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EuroFin.DataClasses\EuroFin.DataClasses.csproj" />
+    <ProjectReference Include="..\EuroFin.DataLayer\EuroFin.DataLayer.csproj" />
+  </ItemGroup>
+
 </Project>

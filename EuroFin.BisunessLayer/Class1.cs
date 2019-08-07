@@ -1,8 +1,15 @@
 ﻿using System;
+using EuroFin.DataClasses;
+using EuroFin.DataLayer;
 
-namespace EuroFin.BisunessLayer
+namespace EuroFin.BusinessLayer
 {
-    public class Class1
+    public class BusinessLayer
     {
+        public void Login(User1 value)
+        {
+            DataLayer.DataLayer dal = new DataLayer.DataLayer();
+            dal.Login(value);
+        }
     }
 }
