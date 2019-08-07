@@ -1,0 +1,9 @@
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BisunessLayer.deps.json
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BisunessLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\bin\Debug\netstandard2.0\EuroFin.BisunessLayer.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.csprojAssemblyReference.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.csproj.CoreCompileInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.AssemblyInfoInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.AssemblyInfo.cs
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.BisunessLayer\obj\Debug\netstandard2.0\EuroFin.BisunessLayer.pdb

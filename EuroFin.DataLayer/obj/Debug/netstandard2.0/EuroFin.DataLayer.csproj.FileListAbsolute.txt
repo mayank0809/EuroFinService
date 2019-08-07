@@ -1,0 +1,9 @@
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\bin\Debug\netstandard2.0\EuroFin.DataLayer.deps.json
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\bin\Debug\netstandard2.0\EuroFin.DataLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\bin\Debug\netstandard2.0\EuroFin.DataLayer.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.csprojAssemblyReference.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.AssemblyInfoInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.AssemblyInfo.cs
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer.pdb
