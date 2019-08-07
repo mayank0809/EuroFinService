@@ -10,6 +10,8 @@ namespace EuroFinService.Models
     {
         public DbSet<User> User { get; set; }
 
+        public DbSet<TaskToDo> TaskToDo { get; set; }
+
 
     }
 }
