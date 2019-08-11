@@ -11,7 +11,7 @@ namespace EuroFinService.Migrations
                 "dbo.Users",
                 c => new
                     {
-                        Id = c.String(nullable: false, maxLength: 128),
+                        Id = c.Int(nullable: false, identity: true),
                         UserName = c.String(),
                         EmailId = c.String(),
                         PhoneNo = c.String(),

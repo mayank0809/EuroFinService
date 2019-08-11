@@ -1,4 +1,5 @@
-﻿using EuroFinService.Models;
+﻿using EuroFinService.Filter;
+using EuroFinService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Web.Http;
 
 namespace EuroFinService.Controllers
 {
+    [BasicAuthorize]
     public class MyToDoListController : ApiController
     {
         // GET api/values

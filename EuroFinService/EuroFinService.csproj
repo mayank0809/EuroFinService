@@ -173,6 +173,7 @@
     <Compile Include="Controllers\PasswordResetController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Filter\Authorize.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -187,10 +188,6 @@
     <Compile Include="Migrations\201908080743166_User.cs" />
     <Compile Include="Migrations\201908080743166_User.Designer.cs">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201908080751437_UserIncrement.cs" />
-    <Compile Include="Migrations\201908080751437_UserIncrement.Designer.cs">
-      <DependentUpon>201908080751437_UserIncrement.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\EuroFinDBContext.cs" />
@@ -300,9 +297,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908080743166_User.resx">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908080751437_UserIncrement.resx">
-      <DependentUpon>201908080751437_UserIncrement.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
