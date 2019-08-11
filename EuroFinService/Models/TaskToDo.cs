@@ -7,7 +7,7 @@ namespace EuroFinService.Models
 {
     public class TaskToDo
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Note { get; set; }
 
     }

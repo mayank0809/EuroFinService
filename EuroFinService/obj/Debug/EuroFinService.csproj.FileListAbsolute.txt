@@ -192,3 +192,6 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinS
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\EuroFin.DataLayer.pdb
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.initilcontext.resources
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.csproj.GenerateResource.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.TaskToDo.resources
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.User.resources
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.UserIncrement.resources

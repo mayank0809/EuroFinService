@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EuroFinService.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,9 +11,12 @@ namespace EuroFinService.Controllers
     public class MyToDoListController : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable<TaskToDo> Get()
         {
-            return new string[] { "value1", "value2" };
+            //return new string[] { "value1", "value2" };
+
+            EuroFinDBContext dBContext = new EuroFinDBContext();
+            return dBContext.TaskToDo.ToList();
         }
 
         // GET api/values/5
@@ -22,8 +26,12 @@ namespace EuroFinService.Controllers
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        public void Post([FromBody]TaskToDo value)
         {
+            EuroFinDBContext dBContext = new EuroFinDBContext();
+            TaskToDo t = new TaskToDo { Note = value.Note };
+            dBContext.TaskToDo.Add(t);
+            dBContext.SaveChanges();
         }
 
         // PUT api/values/5
