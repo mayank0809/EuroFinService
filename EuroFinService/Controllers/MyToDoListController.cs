@@ -42,6 +42,9 @@ namespace EuroFinService.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+            EuroFinDBContext dBContext = new EuroFinDBContext();
+            dBContext.TaskToDo.Remove(dBContext.TaskToDo.SingleOrDefault(x=>x.Id==id));
+            dBContext.SaveChanges();
         }
     }
 }
