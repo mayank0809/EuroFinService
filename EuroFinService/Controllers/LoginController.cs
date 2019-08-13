@@ -15,13 +15,22 @@ namespace EuroFinService.Controllers
         
 
         // POST api/values
-        public void Post([FromBody]User value)
+        public User Post([FromBody]User value)
         {
             //BusinessLayer bal = new BusinessLayer();
             //bal.Login(value);
 
             EuroFinDBContext dBContext = new EuroFinDBContext();
-            dBContext.User.ToList();
+            var a = dBContext.User.SingleOrDefault(x=>x.UserName==value.UserName && x.Password==value.Password);
+
+            if (a == null)
+            {
+                return new User();
+            }
+            else
+            {
+                return a;
+            }
         }
     }
 }
