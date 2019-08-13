@@ -25,9 +25,9 @@ namespace EuroFinService
             HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "*");
             if (HttpContext.Current.Request.HttpMethod == "OPTIONS")
             {
-                HttpContext.Current.Response.AddHeader("Access-Control-Allow-Methods", "POST, PUT, DELETE");
+                HttpContext.Current.Response.AddHeader("Access-Control-Allow-Methods", "POST, PUT, DELETE, OPTIONS'");
 
-                HttpContext.Current.Response.AddHeader("Access-Control-Allow-Headers", "Content-Type, Accept");
+                HttpContext.Current.Response.AddHeader("Access-Control-Allow-Headers", "Content-Type, Accept, X-Requested-With, Content-Type,Access-Control-Request-Method, Access-Control-Request-Headers,Authorization");
                 HttpContext.Current.Response.AddHeader("Access-Control-Max-Age", "1728000");
                 HttpContext.Current.Response.End();
             }

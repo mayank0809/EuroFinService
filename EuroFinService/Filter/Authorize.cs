@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EuroFinService.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -29,9 +30,12 @@ namespace EuroFinService.Filter
                 var password = usernamePasswordArray[1];
 
                 // Replace this with your own system of security / means of validating credentials
-                var isValid = userName == "test" && password == "test";
+                //var isValid = userName == "test" && password == "test";
 
-                if (isValid)
+                EuroFinDBContext dBContext = new EuroFinDBContext();
+                var isValid = dBContext.User.SingleOrDefault(x => x.UserName == userName && x.Password == password);
+
+                if (isValid != null)
                 {
                     var principal = new GenericPrincipal(new GenericIdentity(userName), null);
                     Thread.CurrentPrincipal = principal;
@@ -44,10 +48,10 @@ namespace EuroFinService.Filter
                 }
             }
 
-            var principal1 = new GenericPrincipal(new GenericIdentity("test"), null);
-            Thread.CurrentPrincipal = principal1;
+            //var principal1 = new GenericPrincipal(new GenericIdentity("test"), null);
+            //Thread.CurrentPrincipal = principal1;
 
-            //HandleUnathorized(actionContext);
+            HandleUnathorized(actionContext);
         }
 
         private static void HandleUnathorized(HttpActionContext actionContext)

@@ -15,7 +15,7 @@ namespace EuroFinService.Controllers
         
 
         // POST api/values
-        public User Post([FromBody]User value)
+        public HttpResponseMessage Post([FromBody]User value)
         {
             //BusinessLayer bal = new BusinessLayer();
             //bal.Login(value);
@@ -25,11 +25,11 @@ namespace EuroFinService.Controllers
 
             if (a == null)
             {
-                return new User();
+                return Request.CreateResponse(HttpStatusCode.OK, new User());
             }
             else
             {
-                return a;
+                return Request.CreateResponse(HttpStatusCode.OK, a);
             }
         }
     }
