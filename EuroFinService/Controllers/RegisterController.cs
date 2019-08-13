@@ -17,9 +17,21 @@ namespace EuroFinService.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+
+        [Route("api/register/getuser/{user}")]
+        public string Get(string user)
         {
-            return "value";
+            EuroFinDBContext dBContext = new EuroFinDBContext();
+            var a = dBContext.User.SingleOrDefault(x => x.UserName == user );
+
+            if (a == null)
+            {
+                return "";
+            }
+            else
+            {
+                return a.UserName;
+            }
         }
 
         // POST api/values
