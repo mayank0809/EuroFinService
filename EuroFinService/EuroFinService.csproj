@@ -189,6 +189,10 @@
     <Compile Include="Migrations\201908080743166_User.Designer.cs">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908131125248_userName added.cs" />
+    <Compile Include="Migrations\201908131125248_userName added.Designer.cs">
+      <DependentUpon>201908131125248_userName added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\EuroFinDBContext.cs" />
     <Compile Include="Models\TaskToDo.cs" />
@@ -297,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201908080743166_User.resx">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908131125248_userName added.resx">
+      <DependentUpon>201908131125248_userName added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
