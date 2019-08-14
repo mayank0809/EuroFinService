@@ -24,18 +24,18 @@ namespace EuroFinService.Controllers
         {
             //BusinessLayer bal = new BusinessLayer();
             _bal.Login(value);
+            return Request.CreateResponse(HttpStatusCode.OK, "");
+            //EuroFinDBContext dBContext = new EuroFinDBContext();
+            //var a = dBContext.User.SingleOrDefault(x=>x.UserName==value.UserName && x.Password==value.Password);
 
-            EuroFinDBContext dBContext = new EuroFinDBContext();
-            var a = dBContext.User.SingleOrDefault(x=>x.UserName==value.UserName && x.Password==value.Password);
-
-            if (a == null)
-            {
-                return Request.CreateResponse(HttpStatusCode.OK, new User());
-            }
-            else
-            {
-                return Request.CreateResponse(HttpStatusCode.OK, a);
-            }
+            //if (a == null)
+            //{
+            //    return Request.CreateResponse(HttpStatusCode.OK, new User());
+            //}
+            //else
+            //{
+            //    return Request.CreateResponse(HttpStatusCode.OK, a);
+            //}
         }
     }
 }

@@ -1,0 +1,4 @@
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer1.csprojAssemblyReference.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer1.csproj.CoreCompileInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer1.AssemblyInfoInputs.cache
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataLayer\obj\Debug\netstandard2.0\EuroFin.DataLayer1.AssemblyInfo.cs

@@ -32,7 +32,7 @@ namespace EuroFinService.Filter
                 // Replace this with your own system of security / means of validating credentials
                 //var isValid = userName == "test" && password == "test";
 
-                EuroFinDBContext dBContext = new EuroFinDBContext();
+                EuroFinDBContext11 dBContext = new EuroFinDBContext11();
                 var isValid = dBContext.User.SingleOrDefault(x => x.UserName == userName && x.Password == password);
 
                 if (isValid != null)

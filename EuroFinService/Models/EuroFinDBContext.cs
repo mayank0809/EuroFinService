@@ -8,7 +8,7 @@ using System.Web;
 
 namespace EuroFinService.Models
 {
-    public class EuroFinDBContext :DbContext
+    public class EuroFinDBContext11 :DbContext
     {
         public DbSet<User> User { get; set; }
 

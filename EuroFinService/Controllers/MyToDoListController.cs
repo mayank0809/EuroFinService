@@ -25,7 +25,7 @@ namespace EuroFinService.Controllers
             //return new string[] { "value1", "value2" };
 
             _bal.getMyToDoList();
-            EuroFinDBContext dBContext = new EuroFinDBContext();
+            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
             return dBContext.TaskToDo.ToList();
         }
 
@@ -42,7 +42,7 @@ namespace EuroFinService.Controllers
         {
             //return new string[] { "value1", "value2" };
             _bal.getTaskByUser(user);
-            EuroFinDBContext dBContext = new EuroFinDBContext();
+            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
             return dBContext.TaskToDo.Where(x=>x.UserName == user);
         }
 
@@ -50,10 +50,10 @@ namespace EuroFinService.Controllers
         public void Post([FromBody]TaskToDo value)
         {
             _bal.saveMyToDoList(value);
-            EuroFinDBContext dBContext = new EuroFinDBContext();
-            TaskToDo t = new TaskToDo { Note = value.Note,UserName=value.UserName };
-            dBContext.TaskToDo.Add(t);
-            dBContext.SaveChanges();
+            //EuroFinDBContext11 dBContext = new EuroFinDBContext11();
+            //TaskToDo t = new TaskToDo { Note = value.Note,UserName=value.UserName };
+            //dBContext.TaskToDo.Add(t);
+            //dBContext.SaveChanges();
         }
 
         // PUT api/values/5
@@ -65,7 +65,7 @@ namespace EuroFinService.Controllers
         public void Delete(int id)
         {
             _bal.deleteMyToDoList(id);
-            EuroFinDBContext dBContext = new EuroFinDBContext();
+            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
             dBContext.TaskToDo.Remove(dBContext.TaskToDo.SingleOrDefault(x=>x.Id==id));
             dBContext.SaveChanges();
         }

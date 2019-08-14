@@ -5,14 +5,14 @@ namespace EuroFinService.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EuroFinService.Models.EuroFinDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<EuroFinService.Models.EuroFinDBContext11>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EuroFinService.Models.EuroFinDBContext context)
+        protected override void Seed(EuroFinService.Models.EuroFinDBContext11 context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -30,7 +30,7 @@ namespace EuroFinService.Controllers
         public string Get(string user)
         {
             _bal.getRegisterUser(user);
-            EuroFinDBContext dBContext = new EuroFinDBContext();
+            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
             var a = dBContext.User.SingleOrDefault(x => x.UserName == user );
 
             if (a == null)
@@ -48,11 +48,11 @@ namespace EuroFinService.Controllers
         {
             _bal.postRegisterUser(value);
 
-            EuroFinDBContext dBContext = new EuroFinDBContext();
+            //EuroFinDBContext11 dBContext = new EuroFinDBContext11();
 
-            value.CreateDate = DateTime.Now;
-            dBContext.User.Add(value);
-            dBContext.SaveChanges();
+            //value.CreateDate = DateTime.Now;
+            //dBContext.User.Add(value);
+            //dBContext.SaveChanges();
         }
 
         // PUT api/values/5

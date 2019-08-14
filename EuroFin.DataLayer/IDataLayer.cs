@@ -8,7 +8,7 @@ namespace EuroFin.DataLayer
     public interface IDataLayer
     {
         void getMyToDoList();
-        void deleteMyToDoList(int id);
+        bool deleteMyToDoList(int id);
         void getRegisterUser(string user);
         void getTaskByUser(string user);
         void Login(User value);
