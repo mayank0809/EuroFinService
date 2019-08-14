@@ -316,6 +316,10 @@
       <Project>{79c09f2b-de8d-421a-b557-d44ddf1cab24}</Project>
       <Name>EuroFin.DataClasses</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EuroFin.DataLayer\EuroFin.DataLayer.csproj">
+      <Project>{1F00A062-8087-4D6B-8E26-78DD462996A2}</Project>
+      <Name>EuroFin.DataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201908071825251_initilcontext.resx">

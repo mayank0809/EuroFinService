@@ -7,12 +7,12 @@ namespace EuroFin.BusinessLayer
 {
     public interface IBusinessLayer
     {
-        void Login(User value);
-        void getMyToDoList();
-        void getTaskByUser(string user);
-        void saveMyToDoList(TaskToDo value);
-        void deleteMyToDoList(int id);
-        void getRegisterUser(string user);
-        void postRegisterUser(User value);
+        User Login(User value);
+        IEnumerable<TaskToDo> getMyToDoList();
+        IEnumerable<TaskToDo> getTaskByUser(string user);
+        bool saveMyToDoList(TaskToDo value);
+        bool deleteMyToDoList(int id);
+        string getRegisterUser(string user);
+        bool postRegisterUser(User value);
     }
 }

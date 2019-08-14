@@ -27,32 +27,33 @@ namespace EuroFinService.Controllers
         // GET api/values/5
 
         [Route("api/register/getuser/{user}")]
-        public string Get(string user)
+        public HttpResponseMessage Get(string user)
         {
-            _bal.getRegisterUser(user);
-            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-            var a = dBContext.User.SingleOrDefault(x => x.UserName == user );
-
-            if (a == null)
+            try
             {
-                return "";
+                string register = _bal.getRegisterUser(user);
+                return Request.CreateResponse(HttpStatusCode.OK, register);
             }
-            else
+            catch (Exception ex)
             {
-                return a.UserName;
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);                
             }
         }
 
         // POST api/values
-        public void Post([FromBody]User value)
+        public HttpResponseMessage Post([FromBody]User value)
         {
-            _bal.postRegisterUser(value);
+            try
+            {
+                bool b =_bal.postRegisterUser(value);
 
-            //EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-
-            //value.CreateDate = DateTime.Now;
-            //dBContext.User.Add(value);
-            //dBContext.SaveChanges();
+                return Request.CreateResponse(HttpStatusCode.OK, b);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw;
+            }
         }
 
         // PUT api/values/5

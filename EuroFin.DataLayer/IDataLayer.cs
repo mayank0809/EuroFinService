@@ -7,12 +7,12 @@ namespace EuroFin.DataLayer
 {
     public interface IDataLayer
     {
-        void getMyToDoList();
+        IEnumerable<TaskToDo> getMyToDoList();
         bool deleteMyToDoList(int id);
-        void getRegisterUser(string user);
-        void getTaskByUser(string user);
-        void Login(User value);
-        void postRegisterUser(User value);
-        void saveMyToDoList(TaskToDo value);
+        string getRegisterUser(string user);
+        IEnumerable<TaskToDo> getTaskByUser(string user);
+        User Login(User value);
+        bool postRegisterUser(User value);
+        bool saveMyToDoList(TaskToDo value);
     }
 }

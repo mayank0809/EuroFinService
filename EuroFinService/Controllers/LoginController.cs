@@ -22,9 +22,18 @@ namespace EuroFinService.Controllers
         // POST api/values
         public HttpResponseMessage Post([FromBody]User value)
         {
+            try
+            {
+               var user = _bal.Login(value);
+                return Request.CreateResponse(HttpStatusCode.OK, user);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);                
+            }
             //BusinessLayer bal = new BusinessLayer();
-            _bal.Login(value);
-            return Request.CreateResponse(HttpStatusCode.OK, "");
+           
+            //return Request.CreateResponse(HttpStatusCode.OK, "");
             //EuroFinDBContext dBContext = new EuroFinDBContext();
             //var a = dBContext.User.SingleOrDefault(x=>x.UserName==value.UserName && x.Password==value.Password);
 

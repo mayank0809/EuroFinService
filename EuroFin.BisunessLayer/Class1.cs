@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using EuroFin.DataClasses;
 using EuroFin.DataLayer;
 
@@ -14,41 +15,49 @@ namespace EuroFin.BusinessLayer
         }
         
 
-        public void getMyToDoList()
+        public IEnumerable<TaskToDo> getMyToDoList()
         {
-            dal.getMyToDoList();
+            IEnumerable<TaskToDo> task = dal.getMyToDoList();
+            return task;
         }
 
-        public void deleteMyToDoList(int id)
+        public bool deleteMyToDoList(int id)
         {
-            dal.deleteMyToDoList(id);
+            bool bcheck = dal.deleteMyToDoList(id);
+            return bcheck;
         }
 
-        public void getRegisterUser(string user)
+        public string getRegisterUser(string user)
         {
-            dal.getRegisterUser(user);
+            string str = dal.getRegisterUser(user);
+
+            return str;
         }
 
-        public void getTaskByUser(string user)
+        public IEnumerable<TaskToDo> getTaskByUser(string user)
         {
-            dal.getTaskByUser(user);
+            IEnumerable<TaskToDo> task = dal.getTaskByUser(user);
+            return task;
         }
 
-        public void Login(User value)
+        public User Login(User value)
         {
-            dal.Login(value);
+            User user = dal.Login(value);
+            return user;
             //DataLayer.DataLayer dal = new DataLayer.DataLayer();
             //dal.Login(value);
         }
 
-        public void postRegisterUser(User value)
+        public bool postRegisterUser(User value)
         {
-            dal.postRegisterUser(value);
+            bool bcheck = dal.postRegisterUser(value);
+            return bcheck;
         }
 
-        public void saveMyToDoList(TaskToDo value)
+        public bool saveMyToDoList(TaskToDo value)
         {
-            dal.saveMyToDoList(value);
+            bool save = dal.saveMyToDoList(value);
+            return save;
         }
     }
 }

@@ -6,3 +6,4 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataClasses\obj\Debug\netstandard2.0\EuroFin.DataClasses.AssemblyInfo.cs
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataClasses\obj\Debug\netstandard2.0\EuroFin.DataClasses.dll
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataClasses\obj\Debug\netstandard2.0\EuroFin.DataClasses.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFin.DataClasses\obj\Debug\netstandard2.0\EuroFin.DataClasses.csprojAssemblyReference.cache

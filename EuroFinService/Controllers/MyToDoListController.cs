@@ -20,13 +20,21 @@ namespace EuroFinService.Controllers
             this._bal = Ibal;
         }
         // GET api/values
-        public IEnumerable<TaskToDo> Get()
+        public HttpResponseMessage Get()
         {
             //return new string[] { "value1", "value2" };
+            try
+            {
+                var task = _bal.getMyToDoList();
+                return Request.CreateResponse(HttpStatusCode.OK, task);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw;
+            }
 
-            _bal.getMyToDoList();
-            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-            return dBContext.TaskToDo.ToList();
+
         }
 
         // GET api/values/5 getTaskByUser
@@ -38,22 +46,34 @@ namespace EuroFinService.Controllers
 
         // GET api/values
         [Route("api/MyToDoList/gettaskbyuser/{user}")]
-        public IEnumerable<TaskToDo> Get(string user)
+        public HttpResponseMessage Get(string user)
         {
-            //return new string[] { "value1", "value2" };
-            _bal.getTaskByUser(user);
-            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-            return dBContext.TaskToDo.Where(x=>x.UserName == user);
+            try
+            {
+                //return new string[] { "value1", "value2" };
+                var task =_bal.getTaskByUser(user);
+                return Request.CreateResponse(HttpStatusCode.OK, task);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw;
+            }
         }
 
         // POST api/values
-        public void Post([FromBody]TaskToDo value)
+        public HttpResponseMessage Post([FromBody]TaskToDo value)
         {
-            _bal.saveMyToDoList(value);
-            //EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-            //TaskToDo t = new TaskToDo { Note = value.Note,UserName=value.UserName };
-            //dBContext.TaskToDo.Add(t);
-            //dBContext.SaveChanges();
+            try
+            {
+                bool bcheck = _bal.saveMyToDoList(value);
+                return Request.CreateResponse(HttpStatusCode.OK, bcheck);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw;
+            }
         }
 
         // PUT api/values/5
@@ -62,12 +82,18 @@ namespace EuroFinService.Controllers
         }
 
         // DELETE api/values/5
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
-            _bal.deleteMyToDoList(id);
-            EuroFinDBContext11 dBContext = new EuroFinDBContext11();
-            dBContext.TaskToDo.Remove(dBContext.TaskToDo.SingleOrDefault(x=>x.Id==id));
-            dBContext.SaveChanges();
+            try
+            {
+                bool bvalue= _bal.deleteMyToDoList(id);
+                return Request.CreateResponse(HttpStatusCode.OK, bvalue);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw;
+            }
         }
     }
 }

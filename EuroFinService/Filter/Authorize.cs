@@ -1,4 +1,5 @@
-﻿using EuroFinService.Models;
+﻿using EuroFin.DataLayer;
+using EuroFinService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,7 @@ namespace EuroFinService.Filter
                 // Replace this with your own system of security / means of validating credentials
                 //var isValid = userName == "test" && password == "test";
 
-                EuroFinDBContext11 dBContext = new EuroFinDBContext11();
+                EuroFinDBContext dBContext = new EuroFinDBContext();
                 var isValid = dBContext.User.SingleOrDefault(x => x.UserName == userName && x.Password == password);
 
                 if (isValid != null)
