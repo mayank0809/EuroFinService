@@ -1,4 +1,6 @@
-﻿using EuroFinService.Models;
+﻿using EuroFin.BusinessLayer;
+using EuroFin.DataClasses;
+using EuroFinService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,12 @@ namespace EuroFinService.Controllers
 {
     public class RegisterController : ApiController
     {
+        IBusinessLayer _bal;
+
+        public RegisterController(IBusinessLayer Ibal)
+        {
+            this._bal = Ibal;
+        }
         // GET api/values
         public IEnumerable<string> Get()
         {
@@ -21,6 +29,7 @@ namespace EuroFinService.Controllers
         [Route("api/register/getuser/{user}")]
         public string Get(string user)
         {
+            _bal.getRegisterUser(user);
             EuroFinDBContext dBContext = new EuroFinDBContext();
             var a = dBContext.User.SingleOrDefault(x => x.UserName == user );
 
@@ -37,6 +46,8 @@ namespace EuroFinService.Controllers
         // POST api/values
         public void Post([FromBody]User value)
         {
+            _bal.postRegisterUser(value);
+
             EuroFinDBContext dBContext = new EuroFinDBContext();
 
             value.CreateDate = DateTime.Now;

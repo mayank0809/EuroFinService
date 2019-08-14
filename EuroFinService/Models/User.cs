@@ -5,7 +5,7 @@ using System.Web;
 
 namespace EuroFinService.Models
 {
-    public class User
+    public class User11
     {
         public int Id { get; set; }
         public string UserName { get; set; }

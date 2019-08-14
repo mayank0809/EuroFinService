@@ -51,3 +51,10 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinS
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Unity.WebApi.dll
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Unity.Mvc5.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.DataClasses.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.BusinessLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\netstandard.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.DataLayer.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.DataClasses.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.BusinessLayer.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFin.DataLayer.pdb

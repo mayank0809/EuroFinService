@@ -2,7 +2,7 @@
 
 namespace EuroFin.DataClasses
 {
-    public class User1
+    public class User
     {
         public string UserName { get; set; }
         public string EmailId { get; set; }

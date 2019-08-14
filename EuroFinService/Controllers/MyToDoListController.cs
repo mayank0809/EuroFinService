@@ -1,4 +1,6 @@
-﻿using EuroFinService.Filter;
+﻿using EuroFin.BusinessLayer;
+using EuroFin.DataClasses;
+using EuroFinService.Filter;
 using EuroFinService.Models;
 using System;
 using System.Collections.Generic;
@@ -12,11 +14,17 @@ namespace EuroFinService.Controllers
     [BasicAuthorize]
     public class MyToDoListController : ApiController
     {
+        IBusinessLayer _bal;
+        public MyToDoListController(IBusinessLayer Ibal)
+        {
+            this._bal = Ibal;
+        }
         // GET api/values
         public IEnumerable<TaskToDo> Get()
         {
             //return new string[] { "value1", "value2" };
 
+            _bal.getMyToDoList();
             EuroFinDBContext dBContext = new EuroFinDBContext();
             return dBContext.TaskToDo.ToList();
         }
@@ -33,7 +41,7 @@ namespace EuroFinService.Controllers
         public IEnumerable<TaskToDo> Get(string user)
         {
             //return new string[] { "value1", "value2" };
-
+            _bal.getTaskByUser(user);
             EuroFinDBContext dBContext = new EuroFinDBContext();
             return dBContext.TaskToDo.Where(x=>x.UserName == user);
         }
@@ -41,6 +49,7 @@ namespace EuroFinService.Controllers
         // POST api/values
         public void Post([FromBody]TaskToDo value)
         {
+            _bal.saveMyToDoList(value);
             EuroFinDBContext dBContext = new EuroFinDBContext();
             TaskToDo t = new TaskToDo { Note = value.Note,UserName=value.UserName };
             dBContext.TaskToDo.Add(t);
@@ -55,6 +64,7 @@ namespace EuroFinService.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+            _bal.deleteMyToDoList(id);
             EuroFinDBContext dBContext = new EuroFinDBContext();
             dBContext.TaskToDo.Remove(dBContext.TaskToDo.SingleOrDefault(x=>x.Id==id));
             dBContext.SaveChanges();

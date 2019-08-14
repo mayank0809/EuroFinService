@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EuroFinService.Models
+namespace EuroFin.DataClasses
 {
-    public class TaskToDo11
+    public class TaskToDo
     {
         public int Id { get; set; }
         public string Note { get; set; }
