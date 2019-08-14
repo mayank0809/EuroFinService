@@ -1,0 +1,12 @@
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\EuroFinService.Resolver.dll
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\EuroFinService.Resolver.pdb
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Code\EuroFinService\EuroFinService.Resolver\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Code\EuroFinService\EuroFinService.Resolver\obj\Debug\EuroFinService.Resolver.csproj.CoreCompileInputs.cache
+C:\Code\EuroFinService\EuroFinService.Resolver\obj\Debug\EuroFinService.Resolver.csproj.CopyComplete
+C:\Code\EuroFinService\EuroFinService.Resolver\obj\Debug\EuroFinService.Resolver.dll
+C:\Code\EuroFinService\EuroFinService.Resolver\obj\Debug\EuroFinService.Resolver.pdb

@@ -41,3 +41,13 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinS
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\obj\Debug\EuroFinService.Tests.pdb
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EntityFramework.dll
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EntityFramework.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFinService.Resolver.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\EuroFinService.Resolver.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Unity.WebApi.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService.Tests\bin\Debug\Unity.Mvc5.dll

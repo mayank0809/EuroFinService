@@ -195,3 +195,13 @@ C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinS
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.TaskToDo.resources
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.User.resources
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.userNameadded.resources
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\EuroFinService.Resolver.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Unity.Mvc5.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Unity.WebApi.dll
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\EuroFinService.Resolver.pdb
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
