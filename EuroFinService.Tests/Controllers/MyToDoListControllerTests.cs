@@ -7,6 +7,12 @@ using System.Text;
 using System.Threading.Tasks;
 using EuroFinService.Models;
 using EuroFinService.Tests;
+using EuroFin.BusinessLayer;
+using EuroFin.DataClasses;
+using System.Net.Http;
+
+using Microsoft.Practices.Unity;
+using System.Net;
 
 namespace EuroFinService.Controllers.Tests
 {
@@ -16,13 +22,16 @@ namespace EuroFinService.Controllers.Tests
         [TestMethod()]
         public void GetToDoTest()
         {
-            //var container = ContainerRegister.getContainer();
-            //IOrderService IOrderServicesobj = container.Resolve<IOrderService>();
-            //OrderObj = new OrderController(IOrderServicesobj);
-          
-            //MyToDoListController myToDoList = new MyToDoListController();
-            //IEnumerable<TaskToDo> toDos = myToDoList.Get();
-            //Assert.IsTrue(toDos.Count()>0);
+            var container = ContainerRegister.getContainer();
+            IBusinessLayer IBusinessLayerobj = container.Resolve <IBusinessLayer>();
+            var OrderObj = new MyToDoListController(IBusinessLayerobj) {
+                Request= new System.Net.Http.HttpRequestMessage(),
+                Configuration=new System.Web.Http.HttpConfiguration()
+            };
+
+            //MyToDoListController myToDoList = new MyToDoListController(IBusinessLayerobj);
+            HttpResponseMessage toDos = OrderObj.Get("User1");
+            Assert.AreEqual(toDos.StatusCode,HttpStatusCode.OK);
         }
 
         [TestMethod()]

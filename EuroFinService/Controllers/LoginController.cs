@@ -25,7 +25,7 @@ namespace EuroFinService.Controllers
             try
             {
                var user = _bal.Login(value);
-                return Request.CreateResponse(HttpStatusCode.OK, user);
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, user);
             }
             catch (Exception ex)
             {

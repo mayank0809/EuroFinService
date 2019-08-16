@@ -196,23 +196,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908071825251_initilcontext.cs" />
-    <Compile Include="Migrations\201908071825251_initilcontext.Designer.cs">
+    <Compile Include="Migrations_old\201908071825251_initilcontext.cs" />
+    <Compile Include="Migrations_old\201908071825251_initilcontext.Designer.cs">
       <DependentUpon>201908071825251_initilcontext.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908080740422_TaskToDo.cs" />
-    <Compile Include="Migrations\201908080740422_TaskToDo.Designer.cs">
+    <Compile Include="Migrations_old\201908080740422_TaskToDo.cs" />
+    <Compile Include="Migrations_old\201908080740422_TaskToDo.Designer.cs">
       <DependentUpon>201908080740422_TaskToDo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908080743166_User.cs" />
-    <Compile Include="Migrations\201908080743166_User.Designer.cs">
+    <Compile Include="Migrations_old\201908080743166_User.cs" />
+    <Compile Include="Migrations_old\201908080743166_User.Designer.cs">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908131125248_userName added.cs" />
-    <Compile Include="Migrations\201908131125248_userName added.Designer.cs">
+    <Compile Include="Migrations_old\201908131125248_userName added.cs" />
+    <Compile Include="Migrations_old\201908131125248_userName added.Designer.cs">
       <DependentUpon>201908131125248_userName added.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations_old\Configuration.cs" />
     <Compile Include="Models\EuroFinDBContext.cs" />
     <Compile Include="Models\TaskToDo.cs" />
     <Compile Include="Models\User.cs" />
@@ -322,16 +322,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201908071825251_initilcontext.resx">
+    <EmbeddedResource Include="Migrations_old\201908071825251_initilcontext.resx">
       <DependentUpon>201908071825251_initilcontext.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908080740422_TaskToDo.resx">
+    <EmbeddedResource Include="Migrations_old\201908080740422_TaskToDo.resx">
       <DependentUpon>201908080740422_TaskToDo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908080743166_User.resx">
+    <EmbeddedResource Include="Migrations_old\201908080743166_User.resx">
       <DependentUpon>201908080743166_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908131125248_userName added.resx">
+    <EmbeddedResource Include="Migrations_old\201908131125248_userName added.resx">
       <DependentUpon>201908131125248_userName added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
