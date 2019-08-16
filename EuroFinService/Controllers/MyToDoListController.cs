@@ -1,7 +1,6 @@
 ﻿using EuroFin.BusinessLayer;
 using EuroFin.DataClasses;
 using EuroFinService.Filter;
-using EuroFinService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,10 +38,10 @@ namespace EuroFinService.Controllers
 
         // GET api/values/5 getTaskByUser
 
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        public string Get(int id)
+        {
+            return "value";
+        }
 
         // GET api/values
         [Route("api/MyToDoList/gettaskbyuser/{user}")]

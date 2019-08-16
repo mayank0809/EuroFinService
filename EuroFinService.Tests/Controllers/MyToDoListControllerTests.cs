@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EuroFinService.Models;
 using EuroFinService.Tests;
 using EuroFin.BusinessLayer;
 using EuroFin.DataClasses;

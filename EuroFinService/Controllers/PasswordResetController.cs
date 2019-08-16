@@ -44,7 +44,7 @@ namespace EuroFinService.Controllers
         }
 
         // GET api/values
-        [Route("api/MyToDoList/gettaskbyuser/{user}")]
+        [Route("api/passwordreset/gettaskbyuser/{user}")]
         public HttpResponseMessage Get(string user)
         {
             try

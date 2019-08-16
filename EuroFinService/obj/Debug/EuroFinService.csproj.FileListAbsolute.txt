@@ -1,9 +1,4 @@
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.csprojAssemblyReference.cache
-C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.initilcontext.resources
-C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.TaskToDo.resources
-C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.User.resources
-C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.Migrations.userNameadded.resources
-C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.csproj.GenerateResource.cache
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\obj\Debug\EuroFinService.csproj.CoreCompileInputs.cache
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\EuroFinService.dll.config
 C:\Users\607959084\Documents\Visual Studio 2017\Projects\EuroFinService\EuroFinService\bin\EuroFinService.dll
