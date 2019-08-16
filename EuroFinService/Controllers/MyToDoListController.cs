@@ -39,10 +39,10 @@ namespace EuroFinService.Controllers
 
         // GET api/values/5 getTaskByUser
 
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // GET api/values
         [Route("api/MyToDoList/gettaskbyuser/{user}")]
@@ -74,11 +74,6 @@ namespace EuroFinService.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
                 throw;
             }
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
         }
 
         // DELETE api/values/5
