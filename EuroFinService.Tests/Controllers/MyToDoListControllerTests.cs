@@ -37,12 +37,24 @@ namespace EuroFinService.Controllers.Tests
         [TestMethod()]
         public void PostToDo()
         {
-            //MyToDoListController myToDoList = new MyToDoListController();
-            //TaskToDo childTask = new TaskToDo();
-            //childTask.Id = 101;
-            //childTask.Note = "Test Note";
-            // myToDoList.Post(childTask);
-            
+            var container = ContainerRegister.getContainer();
+            IBusinessLayer IBusinessLayerobj = container.Resolve<IBusinessLayer>();
+
+            TaskToDo task = new TaskToDo()
+            {
+                UserName = "User2",
+                Note = "Hi"
+            };
+            var OrderObj = new MyToDoListController(IBusinessLayerobj)
+            {
+                Request = new System.Net.Http.HttpRequestMessage(),
+                Configuration = new System.Web.Http.HttpConfiguration()
+            };
+
+            //MyToDoListController myToDoList = new MyToDoListController(IBusinessLayerobj);
+            HttpResponseMessage toDos = OrderObj.Post(task);
+            Assert.AreEqual((toDos.Content as ObjectContent).Value, true);
+
         }
     }
 }
